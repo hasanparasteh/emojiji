@@ -3,6 +3,11 @@
 I really had problem encoding and decoding emojis from `utf-8` to `utf-16` and vice versa
 So I created this package to help me out. Hope you find it useful too :)
 
+
+```
+composer require hasanparasteh/emojiji
+```
+
 ### Example
 ```php
 $sampleU8 = "hello 🏦";
