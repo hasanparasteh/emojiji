@@ -1,0 +1,27 @@
+{
+    "name": "hasanparasteh/emojiji",
+    "description": "A helper class to manipulate emojis",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hasan Parasteh",
+            "email": "hasanparasteh@gmail.com"
+        }
+    ],
+    "require": {
+        "incenteev/emoji-pattern": "^1.2"
+    },
+    "keywords": [
+        "emoji",
+        "utf-16",
+        "utf-8",
+        "regex",
+        "unicode"
+    ]
+}

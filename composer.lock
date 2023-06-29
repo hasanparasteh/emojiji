@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9c3e98b42769171effbdcfaa7444e3c4",
+    "packages": [
+        {
+            "name": "incenteev/emoji-pattern",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Incenteev/emoji-pattern.git",
+                "reference": "21e5db977e7bb551e8de7c782a358cd6c136a5b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Incenteev/emoji-pattern/zipball/21e5db977e7bb551e8de7c782a358cd6c136a5b3",
+                "reference": "21e5db977e7bb551e8de7c782a358cd6c136a5b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "ext-mbstring": "*",
+                "phpstan/phpstan": "^1.9",
+                "phpstan/phpstan-deprecation-rules": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "phpunit/phpunit": "^9.5",
+                "symfony/http-client": "^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Incenteev\\EmojiPattern\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "PHP regexp pattern matching Unicode emojis",
+            "support": {
+                "issues": "https://github.com/Incenteev/emoji-pattern/issues",
+                "source": "https://github.com/Incenteev/emoji-pattern/tree/v1.2.0"
+            },
+            "time": "2023-02-01T16:38:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
